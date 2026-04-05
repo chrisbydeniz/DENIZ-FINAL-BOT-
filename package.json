@@ -1,0 +1,24 @@
+{
+  "name": "00u43-bot",
+  "version": "1.0.0",
+  "description": "00u43 byDeniz - WhatsApp Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "baileys": "npm:baileys@latest",
+    "axios": "^1.7.7",
+    "axios-retry": "^3.9.1",
+    "uuid": "^9.0.1",
+    "wa-sticker-formatter": "^4.4.4",
+    "pino": "^8.18.0",
+    "crypto": "latest",
+    "file-type": "^19.0.0",
+    "form-data": "^4.0.1"
+  },
+  "author": "Deniz",
+  "license": "ISC"
+}
